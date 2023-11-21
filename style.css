@@ -406,6 +406,7 @@ input::placeholder{
   }
   .img img{
       width: 150px;
+      height: 220px;
       margin: 15px 0;
       transition: 0.3s;
   
@@ -581,7 +582,7 @@ input::placeholder{
      padding: 10px 25px;
      border: 2px solid  rgb(209, 58, 16) ;
      text-decoration: none;
-     box-shadow: 0 0 8px rgb(244, 44, 4));
+     box-shadow: 0 0 8px rgb(244, 44, 4);
      transition: 0.5s;
  
  }
@@ -909,26 +910,13 @@ footer{
     line-height: 30px;
     z-index: 10;
     position: relative;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 .links a:hover i{
     color:white;
-}
-.links a::after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    top:0;
-    left: -90px;
     background: linear-gradient(to right, #ff7200, rgba(183, 21, 3, 0.997)               );
-    position: absolute;
-    z-index: -10;
-    transition: 0.5s;
+}
 
-}
-.links a:hover:after{
-  left: 0;  
-}
 .tag .search_bar{
     width: 230px;
     height: 30px;
@@ -954,3 +942,4 @@ footer{
     border-radius: 25px;
     color: white;
     cursor: pointer;
+}
